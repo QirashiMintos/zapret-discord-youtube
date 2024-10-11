@@ -1,6 +1,7 @@
 # Zapret (обход блокировки Discord'а и Youtube'а)
 
- - Это FORK оригинального репозитория, если хотите ознакобиться с оригиналом, перейдите по ссылке - https://github.com/QirashiMintos/zapret-discord-youtube
+ - Это FORK оригинального репозитория, если хотите ознакомиться с оригиналом, перейдите по ссылке ниже.
+ - https://github.com/QirashiMintos/zapret-discord-youtube
 
 ## Guides
 ### Windows
