@@ -1,7 +1,12 @@
 # Zapret (обход блокировки Discord'а и Youtube'а)
 
- - Это FORK оригинального репозитория, если хотите ознакомиться с оригиналом, перейдите по ссылке ниже.
- - https://github.com/QirashiMintos/zapret-discord-youtube
+> [!CAUTION]  
+> Это FORK оригинального репозитория, если хотите ознакомиться с оригиналом, перейдите по ссылке ниже.
+> https://github.com/QirashiMintos/zapret-discord-youtube
+
+> [!CAUTION]  
+> В сети появились правдоподобные копии аккаунтов, которые распространяют вредоносное ПО под видом Zapret. \
+> Отличить оригинал от фейка вы всегда можете по количеству [⭐ звёзд](https://github.com/Flowseal/zapret-discord-youtube/stargazers) (в правом верхнем углу) у репозитория.
 
 ## Guides
 ### Windows
@@ -22,6 +27,7 @@
 
 ### Решение проблем
 - Проверьте, запускаете ли вы файлы от имени администратора.
+- Не работают bat файлы? Попробуйте выполнить очистку от драйвера WinDivert, как написано **[ЗДЕСЬ](#остановка-и-удаление-обхода)**
 - Не работает сервис? Проверьте, чтобы в пути до файла **не было пробелов** и русских символов.
   * Также отключите программы, которые могут мешать созданию сервиса *(Антивирусы, клинеры с доп. защитой)*.
 - Не работает вместе с VPN? Отключите функцию **TUN** (Tunneling) в настройках VPN.
@@ -33,7 +39,7 @@
 - Не работает **YouTube**? Попробуйте найти ответ здесь - https://github.com/Flowseal/zapret-discord-youtube/issues/90
 - Не работает **Discord**? Попробуйте найти ответ здесь - https://github.com/Flowseal/zapret-discord-youtube/issues/92
 
-### Хочу удалить, но остался файл WinDivert?
+### Остановка и удаление обхода
 Для удаления оставшегося драйвера WinDivert, откройте cmd от имени администратора и пропишите следующее:
 ```
 sc stop WinDivert
@@ -42,7 +48,7 @@ sc delete WinDivert
 > [!NOTE]  
 > Возможно, драйвер у вас будет записан по-другому. Для уточнения названия пропишите `driverquery | find "Divert"` в cmd.
 
-### Добавление дополнительных адресов заблокированных сайтов: 
+### Добавление дополнительных адресов заблокированных сайтов 
 - Список можно дополнить используя `list-general.txt` (для `*discord_youtube`) и в список `list-discord` (для файлов без `youtube` в названии).
 > [!IMPORTANT]  
 > После добавления сервис нужно перезапустить.
@@ -58,9 +64,9 @@ sc delete WinDivert
 
 ## Support
 
-If you like the project, leave a :star: (top right) and become a [stargazer](https://github.com/Flowseal/zapret-discrord-youtube/stargazers)!
+If you like the project, leave a :star: (top right) and become a [stargazer](https://github.com/Flowseal/zapret-discord-youtube/stargazers)!
 
-[![Stargazers repo roster for @Flowseal/zapret-discord-youtube](https://reporoster.com/stars/dark/Flowseal/zapret-discord-youtube)](https://github.com/Flowseal/zapret-discrord-youtube/stargazers)
+[![Stargazers repo roster for @Flowseal/zapret-discord-youtube](https://reporoster.com/stars/dark/Flowseal/zapret-discord-youtube)](https://github.com/Flowseal/zapret-discord-youtube/stargazers)
 
 ## Credits & Contributors
 <p align="left">
