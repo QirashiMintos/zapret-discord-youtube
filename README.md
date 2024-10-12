@@ -1,8 +1,7 @@
 # Zapret (обход блокировки Discord'а и Youtube'а)
 
 > [!CAUTION]  
-> Это FORK оригинального репозитория, если хотите ознакомиться с оригиналом, перейдите по ссылке ниже.
-> https://github.com/QirashiMintos/zapret-discord-youtube
+> Это FORK оригинального репозитория, если хотите ознакомиться с оригиналом, перейдите по [ссылке](https://github.com/Flowseal/zapret-discord-youtube/stargazers).
 
 > [!CAUTION]  
 > В сети появились правдоподобные копии аккаунтов, которые распространяют вредоносное ПО под видом Zapret. \
