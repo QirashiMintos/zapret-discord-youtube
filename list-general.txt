@@ -49,3 +49,8 @@ discord-attachments-uploads-prd.storage.googleapis.com
 www.curseforge.com
 curseforge.com
 cloudflare-ech.com
+jut.su
+amedia.site
+animego.org
+yummyani.me
+yummyani.meme

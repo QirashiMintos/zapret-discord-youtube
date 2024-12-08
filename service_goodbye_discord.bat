@@ -10,9 +10,6 @@ if "%arg%" == "admin" (
     exit /b
 )
 
-call check_updates.bat soft
-echo:
-
 set BIN=%~dp0bin\
 set ARGS=--wf-tcp=443 --wf-udp=443,50000-50100 ^
 --filter-udp=443 --hostlist=\"%~dp0list-discord.txt\" --dpi-desync=fake --dpi-desync-repeats=6 --dpi-desync-fake-quic=\"%BIN%quic_initial_www_google_com.bin\" --new ^
